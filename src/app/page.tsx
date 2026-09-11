@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Sparkles, BookOpen, Layers, ShieldCheck, Wallet, ArrowRight, CheckCircle2, Heart, Gift } from 'lucide-react';
 import Navbar from '@/components/Navbar';
+import DailyMicroChallenge from '@/components/DailyMicroChallenge';
 import Footer from '@/components/Footer';
 import { SupportedLang, translations } from '@/lib/i18n';
 import { WalletState, loadSavedWalletState } from '@/lib/cardano';
