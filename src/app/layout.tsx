@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import SovereignAIWidget from '@/components/SovereignAIWidget';
 
 export const metadata: Metadata = {
   title: 'Hangul Global | Master Korean with Web3 Micropayments & Staking VIP',
@@ -23,6 +24,7 @@ export default function RootLayout({
 
         <div className="relative z-10 flex-grow flex flex-col">
           {children}
+          <SovereignAIWidget />
         </div>
       </body>
     </html>
